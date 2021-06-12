@@ -1,6 +1,6 @@
 [![Build status](https://waal.visualstudio.com/BizTalk%20Components/_apis/build/status/SetTypedProperty)](https://waal.visualstudio.com/BizTalk%20Components/_build/latest?definitionId=0)
 
-##Description
+## Description
 Promotes a specified value to a specified property.
 
 This component is useful when you need to promote a hard coded value.
