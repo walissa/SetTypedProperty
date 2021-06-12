@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>BizTalkComponents.PipelineComponents.SetTypedProperty</id>
+    <version>$version$</version>
+    <title>SetTypedProperty</title>
+    <authors>Wael Alissa</authors>
+    <projectUrl>https://github.com/walissa/SetTypedProperty</projectUrl>
+    <releaseNotes>Initial release.</releaseNotes>
+    <copyright>Copyright 2021</copyright>
+    <tags>BizTalk</tags>    
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>This components helps to write/promote properties with values of specific types.</description>    
+  </metadata>
+  <files>
+    <file src="bin\release\BizTalkComponents.PipelineComponents.SetTypedProperty.dll" target="lib\net45"/>
+  </files>
+</package>
