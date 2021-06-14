@@ -9,7 +9,7 @@ using System.ComponentModel.DataAnnotations;
 namespace BizTalkComponents.PipelineComponents.SetTypedProperty
 {
     [ComponentCategory(CategoryTypes.CATID_PipelineComponent)]
-    [ComponentCategory(CategoryTypes.CATID_Decoder)]
+    [ComponentCategory(CategoryTypes.CATID_Any)]
     [System.Runtime.InteropServices.Guid("4e2ec3d6-7052-4703-b05f-339eee351ed7")]
     public partial class SetTypedProperty : IBaseComponent, IComponent, IComponentUI, IPersistPropertyBag
     {
