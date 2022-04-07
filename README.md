@@ -15,6 +15,8 @@ This component is useful when you need to promote a hard coded value.
 
 
 ## Remarks ##
+- If ValueType is empty or null, ValueType is set to String.
+
 The component throws exception of type:
 - System.ArgumentException if any of the required parameters is not specified, or if the ValueType is not a named value of System.TypeCode enumeration.
 - System.FormatException if the value format does not match the specified value type.

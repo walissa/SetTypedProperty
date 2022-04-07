@@ -39,6 +39,10 @@ namespace BizTalkComponents.PipelineComponents.SetTypedProperty
 
         public IBaseMessage Execute(IPipelineContext pContext, IBaseMessage pInMsg)
         {
+            if (string.IsNullOrEmpty(ValueType))
+            {
+                ValueType = "String";
+            }
             string errorMessage;
             if (!Validate(out errorMessage))
             {
